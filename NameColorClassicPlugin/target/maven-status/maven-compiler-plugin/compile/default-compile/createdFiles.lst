@@ -1,0 +1,6 @@
+com\namecolor\NameColorPlugin.class
+com\namecolor\data\PlayerDataManager.class
+com\namecolor\listeners\PlayerJoinListener.class
+com\namecolor\utils\MessageFormatter.class
+com\namecolor\commands\NameColorCommand.class
+com\namecolor\utils\ColorHandler.class

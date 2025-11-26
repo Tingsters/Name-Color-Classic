@@ -1,0 +1,43 @@
+# NameColor Plugin Configuration
+# Use § for color codes (§0-§f)
+
+# Display name color locations
+display:
+  tab-list: true       # Show color in tab/player list (press Tab). Set to false if using another tab list plugin
+
+# Plugin message prefix/header
+# Default: §1[§9NameColor§1]§3 
+message-format:
+  prefix: "§1[§9NameColor§1]§3"
+
+# Messages (will be prefixed with the above format)
+messages:
+  color-changed: "Your name color has been changed to {color}§3! Your name now appears as: {name}"
+  invalid-color: "Invalid color! Available colors: {colors}"
+  no-permission: "You don't have permission to use the color {color}."
+  no-permission-command: "You don't have permission to use this command."
+  player-only: "This command can only be used by players."
+  reload-success: "NameColor configuration reloaded successfully!"
+  reload-no-permission: "You don't have permission to reload the plugin."
+  color-reset: "Your name color has been reset to default!"
+  color-list: "Available colors: {colors}"
+  no-colors-available: "You don't have permission to use any colors."
+  admin-no-permission: "You don't have permission to modify other players' colors."
+  player-not-found: "Player {player} is not online."
+  admin-color-changed: "Changed {player}'s name color to {color}§3! Their name now appears as: {name}"
+  admin-color-changed-target: "An admin has changed your name color to {color}§3! Your name now appears as: {name}"
+  admin-color-reset: "Reset {player}'s name color to default!"
+  admin-color-reset-target: "An admin has reset your name color to default!"
+  invalid-color-admin: "Invalid color! Available colors: {colors}"
+
+# Help command messages
+help:
+  header: "§eAvailable Commands:"
+  change-color: "§7- §b/namecolor <color>§7 - Change your name color"
+  reset-color: "§7- §b/namecolor reset§7 - Reset your name color"
+  list-colors: "§7- §b/namecolor list§7 - List colors you can use"
+  show-help: "§7- §b/namecolor help§7 - Show this help message"
+  admin-header: "§eAdmin Commands:"
+  admin-change-color: "§7- §b/namecolor <player> <color>§7 - Change another player's color"
+  admin-reset-color: "§7- §b/namecolor <player> reset§7 - Reset another player's color"
+  reload-command: "§7- §b/namecolor reload§7 - Reload configuration"

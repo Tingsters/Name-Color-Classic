@@ -1,0 +1,70 @@
+name: NameColor
+version: 1.0
+main: com.namecolor.NameColorPlugin
+author: YourName
+description: A plugin that lets players change their display name color
+
+commands:
+  namecolor:
+    description: Change your display name color
+    usage: /<command> <color|reset|reload> or /<command> <player> <color|reset>
+    aliases: [nc]
+
+permissions:
+  namecolor.admin:
+    description: Allows modifying other players' name colors
+    default: op
+  namecolor.color.all:
+    description: Allows using all colors
+    default: false
+  namecolor.color.noblack:
+    description: Allows using all colors except black
+    default: false
+  namecolor.color.black:
+    description: Allows using black color
+    default: false
+  namecolor.color.darkblue:
+    description: Allows using dark blue color
+    default: false
+  namecolor.color.darkgreen:
+    description: Allows using dark green color
+    default: false
+  namecolor.color.darkaqua:
+    description: Allows using dark aqua color
+    default: false
+  namecolor.color.darkred:
+    description: Allows using dark red color
+    default: false
+  namecolor.color.darkpurple:
+    description: Allows using dark purple color
+    default: false
+  namecolor.color.gold:
+    description: Allows using gold color
+    default: false
+  namecolor.color.gray:
+    description: Allows using gray color
+    default: false
+  namecolor.color.darkgray:
+    description: Allows using dark gray color
+    default: false
+  namecolor.color.blue:
+    description: Allows using blue color
+    default: false
+  namecolor.color.green:
+    description: Allows using green color
+    default: false
+  namecolor.color.aqua:
+    description: Allows using aqua color
+    default: false
+  namecolor.color.red:
+    description: Allows using red color
+    default: false
+  namecolor.color.lightpurple:
+    description: Allows using light purple color
+    default: false
+  namecolor.color.yellow:
+    description: Allows using yellow color
+    default: false
+  namecolor.color.white:
+    description: Allows using white color
+    default: false
