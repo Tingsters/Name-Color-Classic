@@ -294,6 +294,11 @@ public class NameColorCommand implements CommandExecutor, TabCompleter {
             return true;
         }
         
+        // Admin permission grants access to all colors
+        if (player.hasPermission("namecolor.admin")) {
+            return true;
+        }
+        
         // Check for all colors permission
         if (player.hasPermission("namecolor.color.all")) {
             return true;
@@ -357,3 +362,4 @@ public class NameColorCommand implements CommandExecutor, TabCompleter {
         return completions;
     }
 }
+
